@@ -1,10 +1,10 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { useAccount } from "wagmi";
 import Alert from "../components/Alert";
-import { getRandomImage } from "../utils/getRandomImage";
+import getRandomImage from "../utils/getRandomImage";
 import { ethers } from "ethers";
 import { useState, useEffect } from "react";
-import { connectContract } from "../utils/connectContract";
+import connectContract from "../utils/connectContract";
 import Head from "next/head";
 import Link from "next/link";
 

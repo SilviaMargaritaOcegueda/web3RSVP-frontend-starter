@@ -1,4 +1,4 @@
-import { abiJSON } from "./Web3RSVP.json";
+import abiJSON from "./Web3RSVP.json";
 import { ethers } from "ethers";
 
 function connectContract() {
